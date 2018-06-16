@@ -363,7 +363,7 @@
 			}
 
 		ul {
-			/*list-style: disc;*/
+			list-style: disc;
 			margin: 0 0 2em 0;
 			padding-left: 0;
 		}
@@ -1336,7 +1336,7 @@
 
 	.explore{
 		margin:5em 0 0 38em;
-		padding-right: 10em;
+		padding-right: 1em;
 	}
 	.buttonh
 	{
@@ -1784,6 +1784,9 @@ display: inline;
 }
 
 @media screen and (min-width: 737px) {
+	#footer{
+		display: none;
+	}
 #banner{
 	padding-top:0em;
 	height:80vh
@@ -1839,8 +1842,8 @@ display: inline;
 	}
 	.hl-wrapper .explore{
 		margin: 0 !important;
-		margin-top: 90% !important;
-		padding-right: 10em !important;
+		margin-top: 50% !important;
+		/*padding-right: 10em !important;*/
 	}
 	.inspiretext{
 			margin :0 !important;
